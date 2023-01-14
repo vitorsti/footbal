@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &458538171819475635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 458538171819475647}
+  - component: {fileID: 458538171819475632}
+  - component: {fileID: 458538171819475633}
+  - component: {fileID: 458538171819475646}
+  - component: {fileID: 458538171819475644}
+  m_Layer: 0
+  m_Name: Holla_Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &458538171819475647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458538171819475635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -200}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &458538171819475632
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458538171819475635}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 180, y: 50, z: 10}
+  m_Center: {x: 0, y: 20, z: 0}
+--- !u!95 &458538171819475633
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458538171819475635}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d9ce458582ff00f4b9ecf0bf7c56af1c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &458538171819475646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458538171819475635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62b38e49c05cda45abff1fe8affee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _thisAnim: {fileID: 458538171819475633}
+  skinColor:
+  - {fileID: 2100000, guid: 18389a2dfa8fe6c42b1ff20737c33fe6, type: 2}
+  - {fileID: 2100000, guid: 096fafb5fbf99bc40bc704cb78b9d6c8, type: 2}
+  - {fileID: 2100000, guid: 574ee281c37105749a955afed1bb12c1, type: 2}
+  - {fileID: 2100000, guid: ed9ef7c700d911049b2728a16262c5b9, type: 2}
+  - {fileID: 2100000, guid: f84c421c988223549bda35cfb1364c26, type: 2}
+  clotheColor:
+  - {fileID: 2100000, guid: f6cd591160df46d4ba2df6cdee9d3efe, type: 2}
+  - {fileID: 2100000, guid: 263cdb21838dc2d428cbf10a8bb16b37, type: 2}
+  - {fileID: 2100000, guid: 121af7d5fdd8b4c4cb7c3afa111e9318, type: 2}
+  - {fileID: 2100000, guid: 3e6bd3b418e66e14496723af0cf7e53e, type: 2}
+  - {fileID: 2100000, guid: ff54ec7a2681c464a9f795b8b28b05dc, type: 2}
+  - {fileID: 2100000, guid: 55f97865e0359ef4b871f662c1676533, type: 2}
+  - {fileID: 2100000, guid: cfb777a8ff2f8414f80487f70a1555b0, type: 2}
+  - {fileID: 2100000, guid: 4744004cedaa85b42833e204715e3a2d, type: 2}
+  - {fileID: 2100000, guid: c1e3d937c0180dd49b1e4b8ade1ace11, type: 2}
+  jeansColor:
+  - {fileID: 2100000, guid: d727237d326f05549a583fc4c25239de, type: 2}
+  - {fileID: 2100000, guid: f5a3f05dde6c0bd4ebe20ea936e31881, type: 2}
+  - {fileID: 2100000, guid: 576fb38d78e56844a8a69f2160ac683d, type: 2}
+  hairColor:
+  - {fileID: 2100000, guid: 1368dde5847642d49901312c2892b114, type: 2}
+  - {fileID: 2100000, guid: 5f5e68d9118812b4d87892f5301b666f, type: 2}
+  - {fileID: 2100000, guid: ce39fc75c2d0c7244b2b59a8fa662768, type: 2}
+--- !u!54 &458538171819475644
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458538171819475635}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2219623771148116708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2219623771148116713}
+  - component: {fileID: 2219623771148116711}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2219623771148116713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2219623771148116708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2219623771148116711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2219623771148116708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3881ff4f58c5556488b5fe11f429a349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  formationHandler: {fileID: 0}
+  pathingOptions: {fileID: 0}
+  generalHandler: {fileID: 0}
+  fieldGoalHandler: {fileID: 0}
+  extraPointChoice: {fileID: 0}
+  lastDownChoice: {fileID: 0}
+  changeFormationMode: {fileID: 0}
+  gameScorePanel: {fileID: 0}
+  startDownButton: {fileID: 0}
+  preSetList: {fileID: 0}
+  EnemyLogUI: {fileID: 0}
+  ball: {fileID: 9168183010091910961, guid: 8abf64a0ef01f5e499e363a03938d351, type: 3}
+  offensiveLine: {fileID: 4806179673133362306, guid: a26753b684d4724459387eb249b17fbf,
+    type: 3}
+  QB: {fileID: 4058845218620120815, guid: 82773a8ce7dc22348ae2aad6f77d5fba, type: 3}
+  enemyTeam: []
+  playerTeam: []

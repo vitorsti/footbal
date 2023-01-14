@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2293379856480951246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2293379856480951245}
+  - component: {fileID: 2293379856480951235}
+  - component: {fileID: 2293379856480951244}
+  m_Layer: 0
+  m_Name: FormationHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2293379856480951245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2293379856480951246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6600001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2293379856480951235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2293379856480951246}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad4ad80fd74aef468c0b9d713608101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dotPrefab: {fileID: 8275657337480250521, guid: 125748994f99bae42ab4b1dc90dccc04,
+    type: 3}
+  selectedPlayer: {fileID: 0}
+  selectedDot: {fileID: 0}
+  ClearAllBtn: {fileID: 0}
+  ClearLastBtn: {fileID: 0}
+  actualSelected: {fileID: 0}
+  _matDefault: {fileID: 2100000, guid: d47527eaf5970834298c1bd88091eced, type: 2}
+  _matOutline: {fileID: 2100000, guid: 54866bf5e06a5484fbe724dbed7aa1ee, type: 2}
+--- !u!114 &2293379856480951244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2293379856480951246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e51569f235bef44af17cd5d7861b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedPlayer: {fileID: 0}
+  WR_L_qtd: 0
+  WR_R_qtd: 0
+  TE_qtd: 0
+  HB_L_qtd: 0
+  HB_R_qtd: 0
+  HB_C_qtd: 0
+  WR_R_limit: 2
+  WR_L_limit: 2
+  TE_limit: 2
+  HB_L_limit: 2
+  HB_R_limit: 2
+  HB_C_limit: 2
+  WR_R_center: {x: -19, y: 0, z: 0}
+  WR_R: {x: 10, y: 1, z: 10}
+  WR_L_center: {x: 19, y: 0, z: 0}
+  WR_L: {x: 10, y: 1, z: 10}
+  TE_center: {x: 0, y: 0, z: 3}
+  TE: {x: 12, y: 1, z: 3.5}
+  HB_L_center: {x: -10, y: 0, z: 0}
+  HB_L: {x: 7.5, y: 0, z: 10}
+  HB_R_center: {x: 10, y: 0, z: 0}
+  HB_R: {x: 7.5, y: 1, z: 10}
+  HB_C_center: {x: 0, y: 0, z: 0}
+  HB_C: {x: 12.5, y: 1, z: 5}
+  _Translucid_Mat:
+  - {fileID: 2100000, guid: 2873c6fa3117a1343b05c6ff144821e6, type: 2}
+  - {fileID: 2100000, guid: e17e77942768a6040852163fdc78fc01, type: 2}
+  - {fileID: 2100000, guid: 56e5547c2c53ada46a777559e424e391, type: 2}
+  - {fileID: 2100000, guid: f6e4aeefdf5e716438a38fe59cd545ac, type: 2}
+  showZones: 0
